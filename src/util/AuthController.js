@@ -1,7 +1,7 @@
 
 const Auth = {
   async loginUser(credentials) {
-    return await fetch('http://defective-harbor.railway.internal:8080/api/v1/auth/authenticate', {
+    return await fetch('https://ffapi-production.up.railway.app/api/v1/auth/authenticate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -12,7 +12,7 @@ const Auth = {
    },
 
    async register(signup) {
-    return await fetch('http://defective-harbor.railway.internal:8080/api/v1/auth/register', {
+    return await fetch('https://ffapi-production.up.railway.app/api/v1/auth/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
