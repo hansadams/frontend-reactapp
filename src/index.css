@@ -1,13 +1,321 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  padding: 60px 0;
+  
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.centervh {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  width: 140px;
+  background-color: #dc3545;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.btn-black {
+  width: 150px;
+  background-color: #2b2b2b!important;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+}
+
+.feature {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 6vh;
+  font-weight: 500;
+  line-height: 0.95;
+  color: #2b2b2b;
+  padding: 30px 0;
+}
+
+.home-hero h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 7vh;
+    font-weight: 500;
+    line-height: 0.95;
+    color: rgb(255, 255, 255);
+    max-width: 40vh;
+    padding: 0;
+}
+
+
+h2 {
+  font-family: system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 2.5vh;
+  color: #ffffff;
+  max-width: 50vh;
+  padding: 10px 0 ;
+}
+
+/* Nav */
+
+
+.navbar img {
+  height: 50px;
+  padding: 5px 5px;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-family: 'Anton', sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.navbar {
+  padding: 0 10px;
+  background-color: #2b2b2b;
+  left: 0;
+  position: fixed;
+  top: 0;
+  
+}
+
+/* Home Hero */
+
+.home-hero {
+  background-color: #a6192e;
+}
+
+.section {
+  padding-bottom: 30px;
+  min-height: 100vh;
+  
+
+}
+
+.home-hero video {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 992px) {
+  .home-hero video {
+    height: 60vh;
+  }
+}
+
+.boxtext{
+  display: inline;
+  padding: 30px;
+  align-items: center;
+}
+
+/* Footer */
+
+.subscribe {
+  background-color: #dc3545;
+  padding-top: 30px;
+
+}
+
+.subscribe button {
+  font-size: 16px;
+}
+
+.subscribe h4 {
+  padding-bottom: 20px;
+}
+
+.copyright {
+  color: white;
+}
+
+/* Team Profiles */
+
+.team-profile h1{
+  padding-top: 20px;
+}
+
+/* Membership Plan Cards */
+
+.all-cards-container {
+  padding: 0;
+}
+
+
+
+.no-products{
+  font-size: x-large;
+  font-style: italic;
+  align-items: center;
+  
+}
+
+
+.card-container img {
+  width: 100%;
+  height: auto;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+}
+
+.card-container h1 {
+  color: #ffffff;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.card-container p {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
+.card-info {
+  background-color: #a6192e;
+  border: solid #000000;
+
+  border-width: 1px 1px 1px 1px;
+  
+}
+
+.card-container h3 {
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 2em;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.promo-info {
+  background-color: #dc3545;
+  border: solid #000000;
+
+  border-width: 1px 10px 10px 1px;
+}
+
+.planimage {
+  padding: 0;
+  
+}
+
+.card-info h1 {
+  font-size: 3.5vh;
+  padding: 15px;
+}
+
+.join h1 {
+  padding-bottom: 0;
+}
+
+.join h3 {
+  font-size: 3vh;
+  padding: 6px;
+}
+
+.card-info p{
+  font-size: 1.5vh;
+  line-height: 1.15;
+}
+
+.planimage img {
+  object-fit: cover;
+  max-height: 60vh;
+}
+
+.join p{
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #a6192e;
+}
+
+.sidebar li {
+  text-align: center;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 35px;
+  width: 20px;
+}
+
+.profileicon img {
+  width: 50px;
+  height: 50px;
+}
+
+.profileicon {
+  color: #ffffff;
+}
+
+.dropdown-toggle::after {
+  color: #ffffff;
+  margin-left: 0;
+  vertical-align: 0;
+}
+
+.navbar-expand-lg {
+  justify-content: space-between;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: -90px;
+}
+
+.offcanvas-title {
+  color: #ffffff;
+}
+
+.offcanvas-body {
+  justify-content: center;
+  height: 95vh;
 }
