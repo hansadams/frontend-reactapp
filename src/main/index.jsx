@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import trailer from '../assets/vid/trailer.mp4'
+import curl from '../assets/img/curl.jpg'
 
 
 export default function Main() {
@@ -52,7 +53,7 @@ export default function Main() {
     </div>
     <div className="row text-center justify-content-center">
       <div className="col-md-10">
-        <img className="feature" src="img/curl.jpg" />
+        <img className="feature" src={curl} />
       </div>
     </div>
   </div>
