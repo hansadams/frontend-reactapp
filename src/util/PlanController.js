@@ -3,14 +3,14 @@ const token = localStorage.getItem("token")
 
 const Plan = {
      async getPlans() {
-      return await fetch('defective-harbor.railway.internal/api/v1/plans')
+      return await fetch('http://defective-harbor.railway.internal/api/v1/plans')
         .then(response => response.json())
         
         
      },
 
      async getPlan(Id) {
-      return await fetch(`defective-harbor.railway.internal/api/v1/plans/${Id}`, 
+      return await fetch(`http://defective-harbor.railway.internal/api/v1/plans/${Id}`, 
       {headers: 
          {
            Authorization: `Bearer ${token}`
@@ -21,7 +21,7 @@ const Plan = {
      },
 
      async updatePlan(Id, data) {
-      return await fetch(`defective-harbor.railway.internal/api/v1/plans/${Id}`, {
+      return await fetch(`http://defective-harbor.railway.internal/api/v1/plans/${Id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -33,7 +33,7 @@ const Plan = {
     },
 
     async deletePlan(Id) {
-      return await fetch(`defective-harbor.railway.internal/api/v1/plans/${Id}`, {
+      return await fetch(`http://defective-harbor.railway.internal/api/v1/plans/${Id}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ const Plan = {
     },
 
     async createPlan(data) {
-      return await fetch(`defective-harbor.railway.internal/api/v1/plans`, {
+      return await fetch(`http://defective-harbor.railway.internal/api/v1/plans`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
