@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import trailer from '../assets/vid/trailer.mp4'
 import curl from '../assets/img/curl.jpg'
+import bench from '../assets/img/bench.jpg'
 
 
 export default function Main() {
@@ -33,7 +34,7 @@ export default function Main() {
 
   </header>
   <div className="container-fluid  justify-content-center">
-    <div className="row text-center justify-content-center section">
+    <div className="row text-center justify-content-center ">
       <div className="col-md-8">
         <h1>HIT YOUR PERSONAL BEST.</h1>
         <p>
@@ -58,7 +59,7 @@ export default function Main() {
     </div>
   </div>
   <div className="container-fluid ">
-    <div className="row text-center justify-content-center section">
+    <div className="row text-center justify-content-center">
       <div className="col-md-8">
         <h1>BRAINS &amp; BRAWN.</h1>
         <p>
@@ -78,11 +79,11 @@ export default function Main() {
     </div>
     <div className="row text-center justify-content-center">
       <div className="col-md-10">
-        <img className="feature" src="img/bench.jpg" />
+        <img className="feature" src={bench} />
       </div>
     </div>
   </div>
-  <div className="container-fluid section">
+  <div className="container-fluid">
     <div className="row text-center justify-content-center">
       <div className="col-md-8">
         <h1>BOARD THE GAIN TRAIN.</h1>
@@ -93,7 +94,7 @@ export default function Main() {
           code together!
         </p>
         <a href="join">
-          <button type="button" className="btn">
+          <button type="button" className="btn padd">
             Sign up
           </button>
         </a>

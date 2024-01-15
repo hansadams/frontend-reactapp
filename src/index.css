@@ -7,7 +7,8 @@ body {
 }
 
 main {
-  padding: 60px 0;
+  padding-top: 60px;
+  min-height: 95.7vh;
   
 }
 
@@ -27,7 +28,17 @@ code {
 }
 
 .btn {
-  width: 140px;
+  width: 150px;
+  background-color: #dc3545;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.btn:hover {
+  width: 150px;
   background-color: #dc3545;
   color: #ffffff;
   text-transform: uppercase;
@@ -51,8 +62,21 @@ img {
 }
 
 .feature {
-  object-fit: cover;
+  object-fit: contain;
   height: 100%;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.plan {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.profile {
+  object-fit: contain;
+  padding-top: 20px;
   width: 100%;
 }
 
@@ -110,6 +134,10 @@ h2 {
   position: fixed;
   top: 0;
   
+}
+
+.red {
+  color: #dc3545;
 }
 
 /* Home Hero */
@@ -192,6 +220,7 @@ h2 {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
   border: none;
+  
 }
 
 .card-container h1 {
@@ -215,7 +244,7 @@ h2 {
 .card-info {
   background-color: #a6192e;
   border: solid #000000;
-
+  cursor: pointer;
   border-width: 1px 1px 1px 1px;
   
 }
@@ -318,4 +347,14 @@ h2 {
 .offcanvas-body {
   justify-content: center;
   height: 95vh;
+}
+
+@media screen and (max-width: 565px) and (min-width: 300px) {
+  .hide{
+    display:none;
+  }
+}
+
+.padd {
+  margin-bottom: 30px;
 }

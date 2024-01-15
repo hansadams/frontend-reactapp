@@ -32,7 +32,7 @@ export default function Join() {
         </div>
       </div>
    
-    <div className="container-fluid">
+    <div className="container-fluid padd">
       <div className="row justify-content-center ">
         <div className="col-12">
           <div className="row all-cards-container justify-content-center  ">

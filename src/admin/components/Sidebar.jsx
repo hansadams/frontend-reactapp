@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { List } from 'react-bootstrap-icons';
 
-function ResponsiveExample() {
+function Sidebar() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -22,19 +22,14 @@ function ResponsiveExample() {
         </Offcanvas.Header>
         <Offcanvas.Body>
         <ul className="nav flex-column mb-auto ">
-  <li className="nav-item">
-    <a href="/admin" className="nav-link text-white" aria-current="page">
 
-      Dashboard
-    </a>
-  </li>
   <li>
     <a href="/admin/plans" className="nav-link text-white">
       Plans
     </a>
   </li>
   <li>
-    <a href="/admin" className="nav-link text-white">
+    <a href="/admin/members" className="nav-link text-white">
 
      Members
     </a>
@@ -47,4 +42,4 @@ function ResponsiveExample() {
   );
 }
 
-export default ResponsiveExample;
+export default Sidebar;

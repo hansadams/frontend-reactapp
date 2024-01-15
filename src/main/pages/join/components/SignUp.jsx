@@ -37,8 +37,9 @@ export default function SignUp(props) {
   }
 
   return (<>
-    <div className="containe-fluid ">
+    <div className="container-fluid ">
         <div className="row justify-content-center">
+        <SelectionCard plan={props.selection}/>
             <div className="col-12 col-lg-7 p-2 ">
             <form className="row g-3 p-3" onSubmit={handleSubmit}>
   <div className="col-md-6">
@@ -49,7 +50,7 @@ export default function SignUp(props) {
       type="text"
       className="form-control"
       id="validationDefault01"
-      placeholder="Ali"
+      placeholder="John"
       required=""
       onChange={e => setFName(e.target.value)}
     />
@@ -62,7 +63,7 @@ export default function SignUp(props) {
       type="text"
       className="form-control"
       id="validationDefault02"
-      placeholder="Bou"
+      placeholder="Smith"
       required=""
       onChange={e => setLName(e.target.value)}
     />
@@ -93,7 +94,8 @@ export default function SignUp(props) {
     <input type="password" className="form-control" id="inputPassword4" onChange={e => setPassword(e.target.value)} />
   </div>
 
-  <SelectionCard plan={props.selection}/>
+
+
 
 
   <div className="col-12">

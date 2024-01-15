@@ -1,12 +1,14 @@
 import {Navigate} from "react-router-dom";
 import AdminBar from "../../components/AdminBar";
 import Sidebar from "../../components/Sidebar";
-import Plan from "../../../util/PlanController";
-import PlanTable from "./components/PlanTable";
+import Member from "../../../util/UserController";
+import MemberTable from "./components/MemberTable";
 
-const plans = await Plan.getPlans();
+const members = await Member.getMembers();
 
-export default function Plans() {
+console.log(members)
+
+export default function Members() {
   
   if (!localStorage.getItem("token")) {
     return <Navigate to="/login" />;
@@ -23,27 +25,25 @@ export default function Plans() {
             </div>
 
             <div className="col-12 col-lg-10">
-              <h1>Plans</h1>
+              <h1>Members</h1>
 
-              <a href="/admin/plans/add">
-                <button type="button" className="btn btn-link btn-sm btn-rounded" >
-                  Add Plan
-                </button>
-              </a>
     
               <table className="table align-middle mb-0 bg-white">
                 <thead className="bg-light">
                   <tr>
+                    <th>Name</th>
+                    <th className="hide">Contact</th>
+                    <th className="hide">DOB</th>
+                    <th className="hide">Email</th>
                     <th>Plan</th>
-                    <th>Price</th>
-                    <th>Edit</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {plans.map((plan, key) => {
+                  {members.map((member, key) => {
                     return (
-                      <PlanTable
-                        plan={plan}
+                      <MemberTable
+                        member={member}
+                        plan={member.plan.name}
                         key={key}
                       />
                     );
