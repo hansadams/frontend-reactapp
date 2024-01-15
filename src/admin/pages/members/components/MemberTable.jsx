@@ -3,7 +3,7 @@ export default function MemberTable(props) {
     <tr>
       <td>
         <div className="d-flex align-items-center">
-          <div className="ms-3">
+          <div>
             <p className="fw-bold mb-1">{`${props.member.firstname} ${props.member.lastname}`}</p>
           </div>
         </div>

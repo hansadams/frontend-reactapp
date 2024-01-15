@@ -28,7 +28,7 @@ code {
 }
 
 .btn {
-  width: 150px;
+  width: 140px;
   background-color: #dc3545;
   color: #ffffff;
   text-transform: uppercase;
@@ -38,7 +38,7 @@ code {
 }
 
 .btn:hover {
-  width: 150px;
+  width: 140px;
   background-color: #dc3545;
   color: #ffffff;
   text-transform: uppercase;

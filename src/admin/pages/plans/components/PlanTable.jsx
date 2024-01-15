@@ -3,7 +3,7 @@ export default function PlanTable(props) {
     <tr>
       <td>
         <div className="d-flex align-items-center">
-          <div className="ms-3">
+          <div>
             <p className="fw-bold mb-1">{props.plan.name}</p>
           </div>
         </div>
