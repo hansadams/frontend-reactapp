@@ -15,7 +15,7 @@ export default function PlanTable(props) {
 
       <td>
       <a href={`/admin/plans/${props.plan.id}`}>
-        <button type="button" className="btn btn-link btn-sm btn-rounded">
+        <button type="button" className="btn btn-sm btn-rounded">
           Edit
         </button></a>
       </td>

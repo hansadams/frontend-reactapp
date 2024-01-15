@@ -26,7 +26,7 @@ export default function Plans() {
               <h1>Plans</h1>
 
               <a href="/admin/plans/add">
-                <button type="button" className="btn btn-link btn-sm btn-rounded" >
+                <button type="button" className="btn btn-sm btn-rounded" >
                   Add Plan
                 </button>
               </a>
