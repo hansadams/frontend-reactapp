@@ -1,4 +1,4 @@
-import gold from "../../../../assets/img/gold.jpg"
+/* eslint-disable jsx-a11y/alt-text */
 import { useCallback } from "react";
 
 export default function PlanCard(props) {

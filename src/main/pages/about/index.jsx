@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import NavBar from "../../components/NavBar";
 import raley from "../../../assets/img/raley.jpg"
 import hans from "../../../assets/img/hans.jpg"

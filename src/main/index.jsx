@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import NavBar from "./components/NavBar";
 import trailer from '../assets/vid/trailer.mp4'
 import curl from '../assets/img/curl.jpg'

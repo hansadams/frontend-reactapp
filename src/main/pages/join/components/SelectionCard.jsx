@@ -1,4 +1,5 @@
-import gold from "../../../../assets/img/gold.jpg"
+/* eslint-disable jsx-a11y/alt-text */
+
 
 export default function SelectionCard(props) {
 

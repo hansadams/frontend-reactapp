@@ -6,8 +6,6 @@ import MemberTable from "./components/MemberTable";
 
 const members = await Member.getMembers();
 
-console.log(members)
-
 export default function Members() {
   
   if (!localStorage.getItem("token")) {

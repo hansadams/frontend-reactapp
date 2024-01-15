@@ -17,11 +17,7 @@ export default function Join() {
 
     },[]);
 
-
-    console.log(selection)
     
-  
-
   return (<>
   <NavBar /><main>
     <div className="container-fluid join">
