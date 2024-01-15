@@ -35,10 +35,9 @@ Driven by a desire to explore the intersection of finance and technology, Raley 
           <h1>HANS</h1>
           <h3>Full Stack Developer</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Cupiditate, cumque error deserunt deleniti commodi optio numquam
-            officiis! Animi, similique. Cum laborum modi fuga quos quasi quo
-            enim suscipit fugiat? Tempora?
+          Starting out as a gym manager, Hans sculpted not just delts but also a deep love for the world of fitness. From curating killer workout playlists to orchestrating gym challenges, they were the heartbeat of the fitness scene.
+
+</p><p>But life had another set of dumbbells in store for Hans! Feeling the itch for a new challenge, he decided to trade kettlebells for keyboard shortcuts and dove headfirst into the wild world of software development. It was a bit like swapping protein shakes for energy drinks – a little crazy, but oh-so-exciting!
           </p>
         </div>
       </div>
